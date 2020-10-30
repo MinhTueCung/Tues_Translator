@@ -5,8 +5,8 @@ class Database():
         self.the_database = sql.connect(
             host='localhost',
             user='root',
-            passwd='EDITH1609',
-            database='database_for_tues_translator'
+            passwd='    ',
+            database='   '
         )
         self.cursor = self.the_database.cursor()
 
